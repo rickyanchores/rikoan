@@ -1,10 +1,16 @@
 import React from 'react'
+import Home from './Pages/Home/Home'
+import Nav from './Components/Nav/Nav'
+import SocialBanner from './Components/SocialBanner/SocialBanner'
+import About from './Pages/About/About'
 
 const App = () => {
   return (
-    <div className='App'>
-      <h1>Title</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, non.</p>
+    <div className='App p-5'>
+      <Nav />
+      <Home />
+      <SocialBanner />
+      <About />
     </div>
   )
 }

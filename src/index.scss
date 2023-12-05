@@ -6,10 +6,62 @@
 //IMPORT
 
 @import "../src/App.scss";
+@import "../src/Pages/Home/Home.scss";
+@import "../src/Pages/About/About.scss";
 
+//COLORS
+$mainBg: black;
+$primary: #202020;
+$secondary: silver;
+$third: coral;
+$text: whitesmoke;
+$error: red;
+$success: lime;
 
 body{
-  background: black;
-  color: whitesmoke;
-  font-family: monospace;
+  background: $mainBg;
+  color: $text;
+  font-family: monospace,sans-serif;
+  
+}
+
+.Nav{
+  background-color: $primary;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 45em;
+}
+
+//Home
+.Home{
+  .user,.right{
+    background-color: $primary;
+    h1{
+      font-size: bolder;
+    }
+  }
+}
+
+
+//SocialBanner
+.SocialBanner{
+  display: flex;
+  .social{
+    width: 30%;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 45em;
+    text-align: center;
+    background: $primary;
+  }
+}
+
+//About
+.About{
+  .location{
+    background: $primary;
+  }
+  .aboutme{
+    background: $primary;
+  }
 }
