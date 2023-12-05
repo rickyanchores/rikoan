@@ -30,7 +30,7 @@ h1{
 
 .Nav{
   background-color: $primary;
-  padding: 2em;
+  padding: 1em;
   margin: 1em;
   border-radius: 45em;
   font-weight: bolder;
@@ -70,4 +70,13 @@ h1{
   .aboutme{
     background: $primary;
   }
+}
+
+//Contacts
+.Contacts{
+  font-weight: bolder;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 45em;
+  background-color: $primary;
 }

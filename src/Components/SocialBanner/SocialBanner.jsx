@@ -2,7 +2,7 @@ import React from 'react'
 
 const SocialBanner = () => {
   return (
-    <div className='SocialBanner w-11/12 m-auto'>
+    <div className='SocialBanner w-11/12 m-auto mt-4 mb-4'>
         <div className="social">Github</div>
         <div className="social">Instagram</div>
         <div className="social">Twitter</div>
@@ -10,4 +10,4 @@ const SocialBanner = () => {
   )
 }
 
-export default SocialBanner
+export default SocialBanner;

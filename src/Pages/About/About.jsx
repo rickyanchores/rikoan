@@ -2,14 +2,14 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='About flex w-11/12 m-auto'>
-        <div className="location p-5 m-1 rounded-2xl flex flex-col justify-center items-center">
+    <div className='About flex w-11/12 m-auto gap-4'>
+        <div className="location p-12 m-1 rounded-2xl flex flex-col justify-center items-center">
             <img src="" alt="worldICON" />
             <h1>Based in London,
                 United Kingdom
             </h1>
         </div>
-        <div className="aboutme p-5 m-1 rounded-2xl flex flex-col justify-center items-center">
+        <div className="aboutme p-12 m-1 rounded-2xl flex flex-col justify-center items-center">
             <h1>
                 As a frontend developer,
                 I'm into minimalist and modern style,
