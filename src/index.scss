@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+//IMPORT
+
+@import "../src/App.scss";
+
+
+body{
+  background: black;
+  color: whitesmoke;
+  font-family: monospace;
+}
