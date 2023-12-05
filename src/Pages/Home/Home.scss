@@ -1,7 +1,6 @@
 .Home{
     height: 70vh;
     h1{
-        font-size: 42px;
         font-weight: bolder;
     }
     p{
@@ -19,5 +18,8 @@
             width: 120px;
             border-radius: 45em;
         };
+    }
+    .btn{
+        font-weight: bolder;
     }
 }

@@ -21,15 +21,19 @@ $success: lime;
 body{
   background: $mainBg;
   color: $text;
-  font-family: monospace,sans-serif;
-  
+  font-family: Inter Display,sans-serif; 
+}
+
+h1{
+  font-size: 40px;
 }
 
 .Nav{
   background-color: $primary;
-  padding: 1em;
+  padding: 2em;
   margin: 1em;
   border-radius: 45em;
+  font-weight: bolder;
 }
 
 //Home
@@ -49,10 +53,12 @@ body{
   .social{
     width: 30%;
     padding: 1em;
-    margin: 1em;
+    margin: auto;
     border-radius: 45em;
     text-align: center;
     background: $primary;
+    font-size: 24px;
+    font-weight: bold;
   }
 }
 
