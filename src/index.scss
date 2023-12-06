@@ -8,6 +8,8 @@
 @import "../src/App.scss";
 @import "../src/Pages/Home/Home.scss";
 @import "../src/Pages/About/About.scss";
+@import "../src/Components/SocialBanner/SocialBanner.scss";
+
 
 //COLORS
 $mainBg: black;
@@ -49,11 +51,9 @@ h1{
 
 //SocialBanner
 .SocialBanner{
-  display: flex;
   .social{
-    width: 30%;
     padding: 1em;
-    margin: auto;
+    margin: 1em;
     border-radius: 45em;
     text-align: center;
     background: $primary;
