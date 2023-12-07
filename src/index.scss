@@ -26,13 +26,8 @@ body{
   font-family: Inter Display,sans-serif; 
 }
 
-h1{
-  font-size: 20px;
-}
-
 .Nav{
   background-color: $primary;
-  border-radius: 45em;
   font-weight: bolder;
 }
 
@@ -74,8 +69,13 @@ h1{
   font-weight: bolder;
   padding: 1em;
   margin: 1em;
-  border-radius: 45em;
   background-color: $primary;
 }
 
 //Projects
+.Projects{
+  .project{
+    background-color: $primary;
+    padding: 2em;
+  }
+}
