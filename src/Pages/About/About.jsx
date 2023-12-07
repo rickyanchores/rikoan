@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='About grid grid-cols-1 md:grid-cols-3 gap-2 md:h-[550px]'>
         <div className="location p-12 m-1 rounded-2xl flex flex-col justify-center items-center md:col-span-1">
-            <TbWorld className='icon text-5xl m-3'/>
+            <TbWorld className='icon text-8xl m-3'/>
             <h1>Based in London,
                 United Kingdom
             </h1>

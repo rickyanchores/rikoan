@@ -11,7 +11,7 @@ const Home = () => {
         <h2 className='Role mt-2'>Frontend Developer</h2>
     </div>
     <div className="right p-8 flex flex-col justify-center items-center rounded-lg">
-      <SiGmail className='icon text-5xl m-4'/>
+      <SiGmail className='icon text-6xl m-4'/>
         <h1 className='text-6xl text-center'>Have a project in mind?</h1>
         <button className='btn bg-orange-600 p-2 rounded-2xl mt-5'>ricky23anchores@gmail.com</button>
     </div>
