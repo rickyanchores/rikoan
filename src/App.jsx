@@ -17,11 +17,11 @@ const App = () => {
         <Routes>
         <Route Component={Home} />
         </Routes>
-      <Home />
-      <SocialBanner />
-      <About />
-      <Contacts />
-      <Projects />
+        <Home />
+        <SocialBanner />
+        <About />
+        <Projects />
+        <Contacts />
       </Router>
     </div>
   )

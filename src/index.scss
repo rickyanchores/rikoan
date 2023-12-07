@@ -77,5 +77,12 @@ body{
   .project{
     background-color: $primary;
     padding: 2em;
+    .btn{
+      background: $mainBg;
+      width: 400px;
+    }
+    .btn:hover{
+      background: $third;
+    }
   }
 }
