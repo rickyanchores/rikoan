@@ -27,13 +27,11 @@ body{
 }
 
 h1{
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .Nav{
   background-color: $primary;
-  padding: 1em;
-  margin: 1em;
   border-radius: 45em;
   font-weight: bolder;
 }
@@ -53,11 +51,10 @@ h1{
 .SocialBanner{
   .social{
     padding: 1em;
-    margin: 1em;
     border-radius: 45em;
     text-align: center;
     background: $primary;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
   }
 }
@@ -80,3 +77,4 @@ h1{
   border-radius: 45em;
   background-color: $primary;
 }
+

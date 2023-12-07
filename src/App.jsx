@@ -14,7 +14,6 @@ const App = () => {
       <SocialBanner />
       <About />
       <Contacts />
-      <Gallery />
     </div>
   )
 }
