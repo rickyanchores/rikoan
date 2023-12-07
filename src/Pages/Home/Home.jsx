@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-<div className='Home p-4 grid grid-cols-1 gap-4 md:grid-cols-2'>
+<div className='Home p-4 grid grid-cols-1 gap-4 md:grid-cols-2 md:h-[400px]'>
     <div className="user p-12 flex flex-col justify-start items-start rounded-lg text-2xl">
         <img src="https://rickyanchores.netlify.app/static/media/RikoAI.42d1aba710ba4d61e093.jpeg" alt="userImg" />
         <h1 className='title'>Ricky A</h1>
