@@ -7,7 +7,7 @@ const Home = () => {
     <div className="user p-8 flex flex-col justify-center items-start rounded-lg text-2xl">
         <img className='imageUser m-4' src="https://rickyanchores.netlify.app/static/media/RikoAI.42d1aba710ba4d61e093.jpeg" alt="userImg" />
         <h1 className='title text-6xl'>Ricky A</h1>
-        <p>is a Data technician based in London with expertise in Data Analysis, currently working as a</p>
+        <p>is a Data Technician based in London with expertise in Data Analysis, currently working as a</p>
         <h2 className='Role mt-2'>Frontend Developer</h2>
     </div>
     <div className="right p-8 flex flex-col justify-center items-center rounded-lg">

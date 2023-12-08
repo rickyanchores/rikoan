@@ -5,35 +5,35 @@ const Projects = () => {
 
   const projectsList = [
     {
-      title: "Project One",
+      title: "CityPix",
       description: "Photography website",
       image: "https://rickyanchores.netlify.app/static/media/Citypx.da061d51a11fba28f583.jpg",
       code: "https://github.com/rickyanchores/CiTYPiX",
       live: "https://rickyanchores.github.io/CiTYPiX/"
     },
     {
-      title: "Project Two",
+      title: "Unsplashed",
       description: "Gallery powered by Unsplash API",
       image: "https://rickyanchores.netlify.app/static/media/unsplash-ED.c3a9a4bfa014661d5d42.png",
       code: "https://github.com/rickyanchores/unsplashED",
       live: "https://unsplash-ed.netlify.app/"
     },
     {
-      title: "Project Three",
+      title: "BioTrkr",
       description: "BMR/BMI calculator",
       image: "https://rickyanchores.netlify.app/static/media/Biotrkr.c29decb2596975901786.png",
       code: "https://github.com/rickyanchores/Biotrkr",
       live: "https://main.d1l6nwyn8to2ht.amplifyapp.com/"
     },
     {
-      title: "Project Four",
+      title: "WeatherApp",
       description: "Weather website powered by Openweathermap API",
       image: "https://rickyanchores.netlify.app/static/media/JSWeather.7365639c2174ade9c50d.png",
       code: "https://github.com/rickyanchores/iOn",
       live: "https://i0n.netlify.app/"
     },
     {
-      title: "Project Five",
+      title: "iON Notes",
       description: "Modern Note Tracker with Tailwind",
       image: "https://rickyanchores.netlify.app/static/media/iOn.0ed715e2471ecfcb7e90.png",
       code: "https://github.com/rickyanchores/iOn",
