@@ -3,7 +3,7 @@ import React from 'react'
 const Project = ({title,description,image,live,code}) => {
   return (
     <div className="project rounded-lg">
-    <div className="project-section m-4">
+    <div className="project-section m-2">
       <h1 className='project-title text-2xl font-bold'>{title}</h1>
       <p className='project-sum text-gray-400'>{description}</p>
     </div>
