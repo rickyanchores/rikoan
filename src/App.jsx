@@ -21,6 +21,7 @@ const App = () => {
         <SocialBanner />
         <About />
         <Projects />
+        <Gallery />
         <Contacts />
       </Router>
     </div>

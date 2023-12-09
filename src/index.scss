@@ -9,7 +9,7 @@
 @import "../src/Pages/Home/Home.scss";
 @import "../src/Pages/About/About.scss";
 @import "../src/Components/SocialBanner/SocialBanner.scss";
-
+@import "../src/Pages/Gallery/Gallery.scss";
 
 //COLORS
 $mainBg: black;
@@ -85,4 +85,9 @@ body{
       background: $third;
     }
   }
+}
+
+//Gallery
+.Gallery{
+    background: $primary;
 }
