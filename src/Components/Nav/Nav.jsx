@@ -19,8 +19,8 @@ const Nav = () => {
   ]
 
   return (
-    <div className='Nav flex justify-between p-5 top-0 z-20 sticky rounded-lg'>
-        <div className="logo border-orange-600 border-4">
+    <div className='Nav flex justify-between items-center p-5 top-0 z-20 sticky rounded-3xl'>
+        <div className="logo p-2 border-orange-600 border-4">
           <h1 className='logoText text-orange-600 '>R</h1>
         </div>
         <div className="navList ">
