@@ -20,7 +20,7 @@ const Home = () => {
     </div>
     <div className="right p-20 flex flex-col justify-center items-center rounded-3xl">
       <SiGmail className='icon text-4xl m-4'/>
-        <h1 className='text-6xl text-center'>Have a project in mind?</h1>
+        <h1 className='text-4xl text-center'>Have a project in mind?</h1>
         <button className='btn bg-orange-600 p-2 rounded-2xl mt-5'>ricky23anchores@gmail.com</button>
     </div>
 </div>
