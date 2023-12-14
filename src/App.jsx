@@ -9,6 +9,13 @@ import Contacts from './Pages/Contacts/Contacts'
 import Gallery from './Pages/Gallery/Gallery'
 import Projects from './Pages/Projects/Projects'
 
+
+//AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 const App = () => {
   return (
     <div className='App p-5 md:w-5/6 md:m-auto'>
