@@ -15,7 +15,7 @@ const Gallery = () => {
         <div className="section rounded-3xl md:row-span-2 md:col-span-1">
           <img className='rounded-lg' src={secondphoto} alt="secondphoto" />
         </div>
-        <div className="section rounded-3xl md:col-span-3">
+        <div className="section rounded-3xl md:col-span-3 md:row-span-1">
           <img className='rounded-lg' src={thirdphoto} alt="thirdphoto" />
         </div>
         </div>

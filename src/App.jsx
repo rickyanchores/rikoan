@@ -11,7 +11,7 @@ import Projects from './Pages/Projects/Projects'
 
 const App = () => {
   return (
-    <div className='App p-5'>
+    <div className='App p-5 md:w-5/6 md:m-auto'>
       <Router>
       <Nav />
         <Routes>
