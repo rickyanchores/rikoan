@@ -8,11 +8,12 @@ import About from './Pages/About/About'
 import Contacts from './Pages/Contacts/Contacts'
 import Gallery from './Pages/Gallery/Gallery'
 import Projects from './Pages/Projects/Projects'
-
+import Skills from './Components/Skills/Skills'
 
 //AOS
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 // ..
 AOS.init();
 
@@ -27,6 +28,7 @@ const App = () => {
         <Home />
         <SocialBanner />
         <About />
+        <Skills />
         <Projects />
         <Gallery />
         <Contacts />
