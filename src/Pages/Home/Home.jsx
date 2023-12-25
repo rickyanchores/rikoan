@@ -4,7 +4,7 @@ import { SiGmail } from "react-icons/si";
 
 const Home = () => {
   return (
-<div className='Home mt-4 mb-4 grid grid-cols-1 gap-4 md:grid-cols-2 md:h-[550px]' id='/' data-aos="fade-in">
+<div className='Home mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 md:h-[550px]' id='/' data-aos="fade-in">
     <div className="user p-20 flex flex-col justify-center items-start rounded-3xl text-2xl">
         <img className='imageUser m-4' src="https://rickyanchores.netlify.app/static/media/RikoAI.42d1aba710ba4d61e093.jpeg" alt="userImg" />
         <h1 className='title text-5xl'>Ricky A</h1>
