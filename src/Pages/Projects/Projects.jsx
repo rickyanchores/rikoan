@@ -29,8 +29,8 @@ const Projects = () => {
       title: "WeatherApp",
       description: "Weather website powered by Openweathermap API",
       image: "https://rickyanchores.netlify.app/static/media/JSWeather.7365639c2174ade9c50d.png",
-      code: "https://github.com/rickyanchores/iOn",
-      live: "https://i0n.netlify.app/"
+      code: "https://github.com/rickyanchores/Jsweather",
+      live: "https://jsweatherapi.netlify.app/"
     },
     {
       title: "iON Notes",
