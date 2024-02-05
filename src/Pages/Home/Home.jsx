@@ -11,7 +11,7 @@ const Home = () => {
         <p className='mt-2'>is a Data Technician based in London with expertise in Web Design, currently working as a</p>
         <h2 className='Role mt-2'>Frontend Developer 💻</h2>
         <button className='download-cv mt-5 bg-orange-600 p-2 rounded-2xl'>
-          <a className='text-[18px]' href="https://drive.google.com/file/d/1sHxpZSMv9tOrx7qZ_1yfkeZIUNbIxqPe/view?usp=drive_link" target="_blank" rel='noreferrer'>
+          <a className='text-[18px]' href="https://docs.google.com/document/d/1601EGIGfAK6cIqLJF-a3SDg50LXwa6zj/edit?usp=drive_link&ouid=105421835892136621650&rtpof=true&sd=true" target="_blank" rel='noreferrer'>
             Download CV
           </a>
         </button>
