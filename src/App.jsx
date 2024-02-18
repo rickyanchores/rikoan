@@ -13,6 +13,7 @@ import Skills from './Components/Skills/Skills'
 //AOS
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import Footer from './Pages/Footer/Footer'
 
 // ..
 AOS.init();
@@ -32,6 +33,7 @@ const App = () => {
         <Projects />
         <Gallery />
         <Contacts />
+        <Footer />
       </Router>
     </div>
   )
