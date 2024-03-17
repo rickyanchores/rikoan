@@ -3,7 +3,7 @@ import { TbWorld } from "react-icons/tb";
 
 const About = () => {
   return (
-    <div className='About grid grid-cols-1 md:grid-cols-3 gap-2 md:h-[550px] mt-2'>
+    <div className='About grid grid-cols-1 md:grid-cols-3 gap-4 md:h-[550px] mt-4'>
         <div className="location p-12 m-1 rounded-3xl flex flex-col justify-center items-center md:col-span-1" data-aos="fade-up">
             <TbWorld className='icon text-8xl m-3'/>
             <h1 className='about-location text-4xl'>Based in London,<br></br>United Kingdom

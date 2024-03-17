@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='Footer m-2 p-4 rounded-2xl'>
+    <div className='Footer mt-4 p-4 rounded-2xl'>
         <div className="container flex justify-center items-center">
             <div className="icon">👨‍💻</div>
             <span></span>

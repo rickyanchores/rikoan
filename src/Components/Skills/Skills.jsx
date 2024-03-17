@@ -3,7 +3,7 @@ import { FaCss3, FaFigma, FaGit, FaHtml5, FaJs, FaReact, FaSass } from 'react-ic
 
 const Skills = () => {
   return (
-    <div className='Skills rounded-3xl p-4 mt-3 mb-3' data-aos="fade-in">
+    <div className='Skills rounded-3xl p-4 mt-4 mb-4' data-aos="fade-in">
         <div className="skill-wrapper flex justify-center gap-4">
            <FaHtml5 className='icon text-4xl'/>  
            <FaCss3 className='icon text-4xl'/>

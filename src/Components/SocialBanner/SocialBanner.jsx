@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const SocialBanner = () => {
   return (
-    <div className='SocialBanner mt-3 grid grid-cols-1 md:grid-cols-3 gap-4'>
+    <div className='SocialBanner mt-4 grid grid-cols-1 md:grid-cols-3 gap-4'>
         <div className="social flex justify-center" data-aos="fade-right">
           <a href="https://github.com/rickyanchores" target="_blank" rel="noreferrer">
             <FaGithub className='icon text-4xl '/>

@@ -26,7 +26,7 @@ const Nav = () => {
         <div className="navList ">
             <ul className="navLinks flex justify-around items-center gap-5">
               {navList.map((link) => 
-              <Link to={link.href}>{link.name}</Link>)}
+              <Link className="hover:animate-pulse hover:text-orange-600" to={link.href}>{link.name}</Link>)}
             </ul>
         </div>
     </div>

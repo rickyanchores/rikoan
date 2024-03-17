@@ -48,7 +48,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className='Projects grid grid-cols-1 md:grid-cols-2 mt-2 m-1 gap-4' id='projects'>
+    <div className='Projects grid grid-cols-1 md:grid-cols-2 mt-2 gap-4' id='projects'>
       {projectsList.map((project, index) => (
         <Project
           key={index}
