@@ -83,6 +83,7 @@ body{
       width: 400px;
     }
     .btn:hover{
+      transition: 0.2s ease-in-out;
       background: $third;
     }
   }

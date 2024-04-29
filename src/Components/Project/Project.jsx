@@ -9,10 +9,10 @@ const Project = ({title,description,image,live,code}) => {
     </div>
     <img className='project-image rounded-lg' src={image} alt="project-photo" />
     <div className="cta-section mt-4 flex gap-4">
-      <button className='btn p-2'>
+      <button className='btn p-2 rounded-xl font-semibold'>
         <a href={code} target="_blank" rel='noreferrer'>Code</a>
       </button>
-      <button className='btn p-2'>
+      <button className='btn p-2 rounded-xl font-semibold'>
         <a href={live} target="_blank" rel='noreferrer'>Live</a>
       </button>
     </div>
