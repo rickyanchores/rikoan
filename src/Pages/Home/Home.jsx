@@ -12,7 +12,7 @@ const Home = () => {
         <p className='mt-2'>is a Data Technician based in London with expertise in Web Design, currently working as a</p>
         <h2 className='Role mt-2'>Frontend Developer 💻</h2>
         <button className='download-cv mt-5 bg-orange-600 p-2 rounded-2xl'>
-          <a className='text-[18px] hover:animate-pulse' href="https://docs.google.com/document/d/1f3GytKzs3n1Q2Rrsqnhmc_9-rbmJBSx1St-hRLEYLjI/edit?usp=drive_link" target="_blank" rel='noreferrer'>
+          <a className='text-[18px] hover:animate-pulse' href="https://drive.google.com/file/d/1_GTI12SX-YNyix6ksc3saZK-bQaofdwt/view?usp=sharing" target="_blank" rel='noreferrer'>
             Download CV
           </a>
         </button>
