@@ -5,7 +5,8 @@ import EmailButton from '../../Components/EmailButton/EmailButton';
 
 const Home = () => {
   return (
-<div className='Home mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 md:h-[550px]' id='/' data-aos="fade-in">
+<div className='Home' id='/' data-aos="fade-in">
+    <div className="home-container mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
     <div className="user p-20 flex flex-col justify-center items-start rounded-3xl text-2xl">
         <img className='imageUser m-4' src="https://rickyanchores.netlify.app/static/media/RikoAI.42d1aba710ba4d61e093.jpeg" alt="userImg" />
         <h1 className='title text-5xl'>Ricky A</h1>
@@ -16,8 +17,6 @@ const Home = () => {
             Download CV
           </a>
         </button>
-
-       
     </div>
     <div className="right p-20 flex flex-col justify-center items-center rounded-3xl">
       <SiGmail className='icon text-4xl m-4'/>
@@ -25,6 +24,7 @@ const Home = () => {
         <button className='btn bg-orange-600 p-2 rounded-2xl mt-5'>
           <EmailButton />
         </button>
+    </div>
     </div>
 </div>
   )
