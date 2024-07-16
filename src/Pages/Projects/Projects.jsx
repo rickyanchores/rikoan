@@ -6,7 +6,7 @@ import ProjectOne from '../../images/relo.png';
 import ProjectTwo from '../../images/unsplashed.png';
 import ProjectThree from '../../images/Biotrkr.png';
 import ProjectFour from '../../images/Jsweather.png';
-import ProjectFive from '../../images/iOn.png';
+import ProjectFive from '../../images/news.png';
 
 const Projects = () => {
   const projectsList = [
@@ -39,11 +39,11 @@ const Projects = () => {
       live: 'https://jsweatherapi.netlify.app/',
     },
     {
-      title: 'iON Notes',
-      description: 'Modern Note Tracker with Tailwind',
+      title: 'News-ar01',
+      description: 'News website that allows to search using news API',
       image: ProjectFive,
-      code: 'https://github.com/rickyanchores/iOn',
-      live: 'https://i0n.netlify.app/',
+      code: 'https://github.com/rickyanchores/r-news',
+      live: 'https://news-ar01.netlify.app',
     },
   ];
 
