@@ -37,14 +37,7 @@ const Projects = () => {
       image: ProjectFour,
       code: 'https://github.com/rickyanchores/Jsweather',
       live: 'https://jsweatherapi.netlify.app/',
-    },
-    {
-      title: 'News-ar01',
-      description: 'News website that allows to search using news API',
-      image: ProjectFive,
-      code: 'https://github.com/rickyanchores/r-news',
-      live: 'https://news-ar01.netlify.app',
-    },
+    }
   ];
 
   return (

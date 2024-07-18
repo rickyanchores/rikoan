@@ -12,8 +12,6 @@ const Skills = () => {
            <FaSass className='icon text-5xl'/>
            <FaFigma className='icon text-5xl'/>
            <FaGit className='icon text-5xl'/>
-           <p className='icon text-2xl'>NextJS</p>
-           <p className='icon text-2xl'>TailwindCSS</p>
         </div>
     </div>
   )
