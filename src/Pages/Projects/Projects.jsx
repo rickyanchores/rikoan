@@ -6,7 +6,7 @@ import ProjectOne from '../../images/relo.png';
 import ProjectTwo from '../../images/unsplashed.png';
 import ProjectThree from '../../images/Biotrkr.png';
 import ProjectFour from '../../images/Jsweather.png';
-import ProjectFive from '../../images/news.png';
+import ProjectFive from '../../images/uchiha.png';
 
 const Projects = () => {
   const projectsList = [
@@ -37,6 +37,13 @@ const Projects = () => {
       image: ProjectFour,
       code: 'https://github.com/rickyanchores/Jsweather',
       live: 'https://jsweatherapi.netlify.app/',
+    },
+    {
+      title: 'Uchiha Restaurant',
+      description: 'Restaurant minimalist website in NextJS',
+      image: ProjectFive,
+      code: 'https://github.com/rickyanchores/uchiha',
+      live: 'https://uchiharestaurant.netlify.app',
     }
   ];
 
