@@ -14,7 +14,7 @@ import Skills from './Components/Skills/Skills'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Footer from './Pages/Footer/Footer'
-import TestForm from './Pages/TestForm/TestForm'
+import EmailForm from './Pages/EmailForm/EmailForm'
 
 // ..
 AOS.init();
@@ -34,7 +34,7 @@ const App = () => {
         <Projects />
         <Gallery />
         <Contacts />
-        <TestForm />
+        <EmailForm />
         <Footer />
       </Router>
     </div>
