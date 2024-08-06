@@ -4,7 +4,7 @@ import Project from '../../Components/Project/Project';
 //IMPORT IMAGES STATIC
 import ProjectOne from '../../images/relo.png';
 import ProjectTwo from '../../images/unsplashed.png';
-import ProjectThree from '../../images/Biotrkr.png';
+import ProjectThree from '../../images/watchfinder.png';
 import ProjectFour from '../../images/Jsweather.png';
 import ProjectFive from '../../images/uchiha.png';
 
@@ -25,11 +25,11 @@ const Projects = () => {
       live: 'https://unsplash-ed.netlify.app/',
     },
     {
-      title: 'BioTrkr',
-      description: 'BMR/BMI calculator',
+      title: 'WatchFinder',
+      description: 'Website search engine powered by Amazon Data API',
       image: ProjectThree,
-      code: 'https://github.com/rickyanchores/Biotrkr',
-      live: 'https://main.d1l6nwyn8to2ht.amplifyapp.com/',
+      code: 'https://github.com/rickyanchores/watchfinder',
+      live: 'https://watchufinder.netlify.app/',
     },
     {
       title: 'WeatherApp',
