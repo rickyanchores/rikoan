@@ -10,7 +10,7 @@ const Home = () => {
     <div className="user p-20 flex flex-col justify-center items-start rounded-3xl text-2xl">
         <img className='imageUser m-4' src="https://rickyanchores.netlify.app/static/media/RikoAI.42d1aba710ba4d61e093.jpeg" alt="userImg" />
         <h1 className='title text-5xl'>Ricky A</h1>
-        <p className='mt-2'>is a Data Technician based in London with expertise in Web Development, currently working as a</p>
+        <p className='mt-2'>is a Data Technician based in London with expertise in Web Design, currently working as a</p>
         <h2 className='Role mt-2'>Frontend Developer 💻</h2>
         <button className='download-cv mt-5 bg-orange-600 p-2 rounded-2xl'>
           <a className='text-[18px] hover:animate-pulse' href="https://drive.google.com/file/d/1H2IZdm-flMC2_3Ae2GLMxtHuG8VX2yRp/view?usp=sharing" target="_blank" rel='noreferrer'>

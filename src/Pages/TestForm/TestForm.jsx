@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PopupForm from '../../Components/PopupForm/PopupForm';
 
-const EmailForm = () => {
+const TestForm = () => {
 
 const [isPopupOpen, setIsPopupOpen] = useState(false);
 
@@ -14,11 +14,11 @@ const [isPopupOpen, setIsPopupOpen] = useState(false);
   };
 
   return (
-    <div className='emailForm grid items-center'>
-        <button className='bg-orange-600 text-white text-xl font-semibold rounded-xl m-4 p-4' onClick={openPopup}>Contact Me</button>
+    <div className='TestForm grid items-center'>
+        <button className='text-white bg-orange-700 text-xl font-semibold rounded-xl m-4 p-4' onClick={openPopup}>Contact Me</button>
         {isPopupOpen && <PopupForm onClose={closePopup} />}
     </div>
   )
 }
 
-export default EmailForm;
+export default TestForm;
