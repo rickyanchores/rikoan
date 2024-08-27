@@ -1,5 +1,5 @@
 import React from 'react'
-import { TbWorld } from "react-icons/tb";
+import { TbFlag, TbLocation, TbWorld } from "react-icons/tb";
 
 const About = () => {
   return (

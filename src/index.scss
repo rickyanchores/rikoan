@@ -66,6 +66,7 @@ body{
   }
 }
 
+
 //Contacts
 .Contacts{
   font-weight: bolder;
@@ -103,4 +104,9 @@ body{
   background: $primary;
   font-weight: bolder;
   padding: 1em;
+}
+
+//LocationBanner
+.LocationBanner{
+  background: $primary;
 }
