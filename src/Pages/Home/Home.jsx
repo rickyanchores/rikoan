@@ -11,9 +11,9 @@ const Home = () => {
         <img className='imageUser m-4' src="https://rickyanchores.netlify.app/static/media/RikoAI.42d1aba710ba4d61e093.jpeg" alt="userImg" />
         <h1 className='title text-5xl'>Ricky A</h1>
         <p className='mt-2'>is a Data Technician based in London with expertise in Web Design, currently working as a</p>
-        <h2 className='Role mt-2'>Frontend Developer 💻</h2>
+        <h2 className='Role mt-2'>Data Analyst/Frontend Developer 💻</h2>
         <button className='download-cv mt-5 bg-orange-600 p-2 rounded-2xl'>
-          <a className='text-[18px] hover:animate-pulse' href="https://drive.google.com/file/d/113PRk65qlSgUQlTNRfey51S9JB-ya5Jb/view?usp=drive_link" target="_blank" rel='noreferrer'>
+          <a className='text-[18px] hover:animate-pulse' href="https://drive.google.com/file/d/1849TjChmRh7uIwD6_yoDXx_bSpgx0O9e/view?usp=drive_link" target="_blank" rel='noreferrer'>
             Download CV
           </a>
         </button>
